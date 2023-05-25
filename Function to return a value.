@@ -1,0 +1,11 @@
+public class FuntionToReturnValue {
+  public static void main(String[] args) {
+    int ans = sum(20, 34, 65);
+    System.out.println(ans);
+  }
+
+  static int sum(int a, int b, int c) {
+    int sum = a + b + c;
+    return sum;
+  }
+}
