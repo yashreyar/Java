@@ -1,0 +1,10 @@
+
+public class addition {
+  public static void main(String[] args) {
+    int a = 54;
+    int b = 98;
+    int c = 76;
+    int sum = a + b + c;
+    System.out.println(sum);
+  }
+}
