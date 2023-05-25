@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+public class VariableArguments {
+  public static void main(String[] args) {
+    fun(1, 4, 3, "Yash", "Lovesh", "Shubham");
+  }
+
+  static void fun(int a, int b, int c, String... v) {
+    System.out.println(Arrays.toString(v));
+  }
+}
