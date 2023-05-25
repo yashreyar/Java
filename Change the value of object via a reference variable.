@@ -1,0 +1,13 @@
+import java.util.Arrays;
+
+public class ChangeValueOfObject {
+  public static void main(String[] args) {
+    int[] arr = { 12, 43, 48, 76, 34 };
+    change(arr);
+    System.out.println(Arrays.toString(arr));
+  }
+
+  static void change(int[] nums) {
+    nums[0] = 65;
+  }
+}
