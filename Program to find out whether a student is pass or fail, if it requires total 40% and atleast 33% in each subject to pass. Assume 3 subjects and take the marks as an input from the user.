@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class neww {
+  public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter maths marks : ");
+    float maths = sc.nextFloat();
+    System.out.println("Enter maths physics : ");
+    float physics = sc.nextFloat();
+    System.out.println("Enter maths chem : ");
+    float chem = sc.nextFloat();
+
+    float totalmarks = maths + physics + chem;
+    float Percentage = ((totalmarks / 300) * 100);
+
+    System.out.println("Overall percentage is :" + Percentage + "%");
+
+    if (Percentage >= 40 && maths >= 33 && physics >= 33 && chem >= 33) {
+      System.out.println("Pass");
+    } else {
+      System.out.println("Fail");
+    }
+  }
+}
