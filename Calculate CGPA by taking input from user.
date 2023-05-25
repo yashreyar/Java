@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class cgpa {
+  public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter Maths marks : ");
+    float Maths = sc.nextFloat();
+    System.out.println("Enter Physics marks : ");
+    float Physics = sc.nextFloat();
+    System.out.println("Enter Chemistry marks : ");
+    float Chemistry = sc.nextFloat();
+    float totalmarks = Maths + Physics + Chemistry;
+    float cgpa = ((totalmarks / 300) * 10);
+    System.out.println("Your CGPA is : " + cgpa + "%");
+  }
+}
+
