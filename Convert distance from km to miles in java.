@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class kmtomiles {
+  public static void main(String[] args) {
+  
+    System.out.println("Enter kilometres : ");
+    Scanner sc = new Scanner(System.in);
+    double km = sc.nextDouble();
+    double miles = (0.6214 * km);
+    System.out.println(miles);
+    
+  }
+}
