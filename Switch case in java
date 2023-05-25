@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class HelloWorld {
+  public static void main(String[] args) {
+  
+    System.out.println("Enter your number:");
+    Scanner sc = new Scanner(System.in);
+    int number = sc.nextInt();
+    
+    switch (number) {
+      case 1:
+        System.out.println("Excellent!");
+        break;
+      case 2:
+        System.out.println("Good");
+        break;
+      case 3:
+        System.out.println("Nice");
+        break;
+      case 4:
+        System.out.println("Not bad");
+        break;
+      case 5:
+        System.out.println("Can do better");
+        break;
+      default:
+        System.out.println("Wrong Input");
+        
+    }
+  }
+}
